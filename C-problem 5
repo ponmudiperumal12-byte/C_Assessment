@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int num, out;
+    printf("Enter number: ");
+    scanf("%d", &num);
+    out = num / 6;
+    printf("%d", out);
+}
