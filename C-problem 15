@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int a, f, s, t, fo;
+    printf("Enter the four digit number: ");
+    scanf("%d", &a);
+    f=a%10;
+    s=(a/10)%10;
+    t=a/100;
+    fo=(a/1000)/100;
+    printf("%d\n", (fo*1000+t*100+f*10+s));
+}
