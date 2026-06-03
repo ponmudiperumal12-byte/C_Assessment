@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int a, f, s;
+    printf("Enter the number: ");
+    scanf("%d", &a);
+    f=a%10;
+    s = 1;
+    printf("%d", (s * 10) + f);
+}
