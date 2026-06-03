@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int a, f, s, t;
+    printf("Enter the three digit num: ");
+    scanf("%d", &a);
+    f = a % 10;
+    s = 0;
+    t = a / 100;
+    printf("%d\n", (t*100+s*10+f));
+}
