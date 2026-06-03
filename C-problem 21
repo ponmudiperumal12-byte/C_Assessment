@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int a,b, f, s, sum;
+    printf("Enter the two digit number: ");
+    scanf("%d", &a);
+    f=a%10;
+    s=a/10;
+    sum=f+s;
+    b=(sum %2 !=0) ? (a-5) :a;
+    printf("%d", b );
+}
